@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
+  padding: 0%;
   display: flex;
   overflow: hidden;
   background-image: radial-gradient(circle at top right, #ff0055, #beec4ba6, #ff0055);
@@ -96,4 +97,7 @@ body {
 #gruppArbete, #alice {
   color: #ff0055;
   text-decoration: none;
+}
+* {
+  box-sizing: border-box;
 }
