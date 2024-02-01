@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+
+    <p></p>
+  <meta charset="UTF-8">
+  <title>netonnet</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <main>
+    <section class="about-section">
+      <h1 style="color:rgb(152, 238, 14);">Vår Historia</h1>
+      <p>   
+        NetOnNet öppnade den 10 mars 1999 med en enkel affärsidé: att sälja hemelektronik till lägre <br>
+         priser än i vanliga butiker. Vi fanns bara på Internet och sålde våra produkter direkt från <br>
+          lagerhyllan, utan onödigt krångel. 2001 kompletterades nätförsäljningen med Lagershopar där <br>
+           du handlar till samma låga priser som på nätet.
+      </p><br>
+      <img src="img/bojkensBild.jpeg" alt="Bild">
+    </section>
+  </main>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakta oss</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body> 
+  <main>
+    <section class="contact-section">
+      <h1>Kontakta oss</h1>
+      <form action="submit.php" method="post">
+        <div class="form-group">
+          <label for="name">Namn:</label>
+          <input type="text" id="name" name="name" required><br><br>
+        </div>
+        <div class="form-group">
+          <label for="email">E-post:</label>
+          <input type="email" id="email" name="email" required><br><br>
+        </div>
+        <div>
+          <label for="telefonnummer">telefonnumer:</label>
+          <input type="telefonnummer" id="telefonnummer" name="telefonnummer" required><br><br>
+          <div>
+            <label for="Address">Address:</label>
+            <input type="Address" id="Address" name="Address" required><br><br>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Ämne:</label>
+          <select id="subject" name="subject">
+            <option value="fråga">Fråga</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Meddelande:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="checkbox" id="privacy" name="privacy" required>
+          <label for="privacy">Jag godkänner integritetspolicy.</label><br>
+        </div>
+        <div class="form-group"><br>
+          <button type="submit">Skicka</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
